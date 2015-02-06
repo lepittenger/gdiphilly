@@ -9,7 +9,7 @@ See development docs at [http://jekyllrb.com/](http://jekyllrb.com/).
 
 ## Publishing to Github Pages
 
-The only branch in the github repo is the `gh-pages` branch. Pushing updates to this branch will update the static site.
+In order to make new changes live, you first must re-build the Jekyll site, then push the `_site` folder to the `gh-pages` branch.
 
 ### Building new files to the static content
 
@@ -19,8 +19,14 @@ Read more [here](http://jekyllrb.com/docs/usage/):
 From the command line (with Jekyll installed) type:
 `jekyll build`
 
-Then commit all the files and push to `gh-pages`.
 
+## Pushing the `_site` folder to `gh-pages`
+
+In order to push just a subdirectory to the `gh-pages` branch, use this command:
+
+```
+git subtree push --prefix _site origin gh-pages
+```
 
 ## Adding new pages and posts
 
