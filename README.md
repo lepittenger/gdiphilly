@@ -11,8 +11,7 @@ See development docs at [http://jekyllrb.com/](http://jekyllrb.com/).
 
 ## Publishing to Github Pages
 
-In order to make new changes live, you first must re-build the Jekyll site, then push the `_site` folder to the `gh-pages` branch.
-
+In order to make new changes live, you first must re-build the Jekyll site, then push your changes to the main `gh-pages` branch.
 ### Building new files to the static content
 
 When you add a new post or page, or change the styles or templates, you must re-build the static content so the site can pick it up.
@@ -22,13 +21,18 @@ From the command line (with Jekyll installed) type:
 `jekyll build`
 
 
-## Pushing the `_site` folder to `gh-pages`
+## Pushing your changes
 
-In order to push just a subdirectory to the `gh-pages` branch, use this command:
+Add all your changes:  
+`git add --all`
 
-```
-git subtree push --prefix _site origin gh-pages
-```
+Commit and add a commit message:
+
+`git commit` or `git commit -m 'my commit message'`
+
+Push to the `gh-pages` branch:
+
+`git push -u origin gh-pages`
 
 ## Adding new pages and posts
 
