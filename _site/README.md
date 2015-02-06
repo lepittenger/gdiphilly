@@ -1,5 +1,7 @@
 # gdiphilly
-Repo for GDIPhilly.com
+
+Current dev static site is located at:
+[http://gdiphilly.github.io/gdiphilly/](http://gdiphilly.github.io/gdiphilly/)
 
 ## Installation
 
