@@ -3,6 +3,19 @@
 Current dev static site is located at:
 [http://gdiphilly.github.io/gdiphilly/](http://gdiphilly.github.io/gdiphilly/)
 
+## Contributing/Current To Do's
+
+There's a planning board available at the GDI Philly Trello:
+https://trello.com/b/WHTKPtRx/gdiphilly-com
+
+Please also browse the currently open [issues](https://github.com/gdiphilly/gdiphilly/issues) and help out where you can!
+
+**How to contribute**
+- Fork this repo into your own github account
+- Work on your changes
+- Create a pull request back to the `gh-pages` branch of this repo
+- Link the related issue in your pull request, and explain what you did.
+
 ## Installation
 
 This is a jekyll website. In order to make changes to the site you will need to have jekyll set up and available via the command line.
