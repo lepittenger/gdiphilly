@@ -3,7 +3,7 @@ title: Girl Develop It Philly
 email: philly@girldevelopit.com
 description: > # this means to ignore newlines until "baseurl:"
   Empowering women of diverse backgrounds from around the world to learn how to develop software.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/gdiphilly" # the subpath of your site, e.g. /blog/
 url: "http://gdiphilly.github.io" # the base hostname & protocol for your site
 twitter_username: gdiphilly
 github_username:  gdiphilly
