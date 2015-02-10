@@ -1,7 +1,7 @@
 # gdiphilly
 
 Current dev static site is located at:
-[http://gdiphilly.github.io/gdiphilly/](http://gdiphilly.github.io/gdiphilly/)
+[http://www.gdiphilly.com](http://www.gdiphilly.com/)
 
 ## Installation
 
