@@ -31,5 +31,9 @@ Push to the `master` branch:
 
 ## Adding new pages and posts
 
+Using Markdown:
+- Markdown Main Site: http://daringfireball.net/projects/markdown/syntax
+- Markdown Cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 - [Jekyll Guide to creating new Posts](http://jekyllrb.com/docs/posts/)
 - [Jekyll Guide to creating new Pages](http://jekyllrb.com/docs/pages/)
